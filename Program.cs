@@ -8,12 +8,12 @@ namespace DataBasePlayer
     {
         static void Main(string[] args)
         {
-            int sizeArray = 10;
+            int arraySize = 10;
             int maxElementArray = 100;
 
             Random random = new Random();
 
-            int[] array = new int[sizeArray];
+            int[] array = new int[arraySize];
 
             for (int i = 0; i < array.Length; i++)
             {
@@ -32,7 +32,6 @@ namespace DataBasePlayer
 
         static void Shuffle(int[] array, Random random)
         {
-
             for (int i = 0; i < array.Length; i++)
             {
                 int randomIndex = i;
